@@ -17,7 +17,6 @@ function App() {
         >
           Learn React
         </a>
-        <h4>Testing deploy to Heroku</h4>
       </header>
     </div>
   );

@@ -74,3 +74,4 @@ install heroku cli
 heroku login
 heroku authorizations:create - create token and integrate with github secrets
 add this token to your github workflow
+git push heroku master - to push your changes manually

@@ -43,6 +43,7 @@ jobs:
         heroku_api_key: ${{ secrets.HEROKU_API_TOKEN }}
         heroku_app_name: radiant-journey-43861
         heroku_email: tarunbhartiya7@gmail.com
+        procfile: "web: yarn start"
     
     # - name: Deploy to Heroku
     #   env: 

@@ -35,8 +35,8 @@ jobs:
         cache: 'npm'
     - run: git rm yarn.lock 
     - run: npm i
-    - run: npm run build --if-present
     - run: npm test
+    - run: npm run build --if-present
 
     - name: Deploy to Heroku
       uses: akhileshns/heroku-deploy@v3.12.12

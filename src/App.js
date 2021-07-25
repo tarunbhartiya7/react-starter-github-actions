@@ -17,7 +17,6 @@ function App() {
         >
           Learn React
         </a>
-        <h4>Deploying to netlify</h4>
       </header>
     </div>
   );
